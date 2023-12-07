@@ -11,7 +11,7 @@ public class Main {
         System.out.println("___________________");
         System.out.println("Please enter the following information: ");
 
-         int principal = (int) readNumber("Principal ($1k - $1M): ", 1000, 1_000_000);
+        int principal = (int) readNumber("Principal ($1k - $1M): ", 1000, 1_000_000);
         float annualInterestRate = (float) readNumber("Annual Interest Rate: ", 1, 30);
         byte period = (byte) readNumber("Period (Years): ", 1, 30);
 

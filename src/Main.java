@@ -33,7 +33,6 @@ public class Main {
         return value;
     }
 
-
     public static double calculateMortgage(int principal, float annualInterestRate , byte period){
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;

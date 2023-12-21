@@ -2,18 +2,18 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Console {
-    private final Scanner scanner;
+    private static final Scanner scanner = new Scanner(System.in);
 
-    public Console() {
-        this.scanner = new Scanner(System.in);
+    public static double readNumber(String prompt) {
+        return scanner.nextDouble();
     }
 
-    public double readNumber(String prompt, int min, int max) {
+    public static double readNumber(String prompt, int min, int max) {
         double value;
 
         while (true) {
             System.out.print(prompt);
-            value = scanner.nextInt();
+            value = scanner.nextDouble();
             if (value >= min && value <= max)
                 break;
 
@@ -24,9 +24,4 @@ public class Console {
 
         return value;
     }
-
-    public void closeScanner() {
-        scanner.close();
-    }
-
 }

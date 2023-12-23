@@ -1,6 +1,7 @@
 import java.text.NumberFormat;
 
 public class MortgageReport {
+
     private final MortgageCalculator calculator;
     private final NumberFormat currency;
 

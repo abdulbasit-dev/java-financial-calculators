@@ -1,44 +1,59 @@
-# Mortgage Calculator
+# Java Financial Calculators 🧮💰
 
 ## Overview
 
-This Java program is a simple Mortgage Calculator that allows users to calculate their mortgage payments based on the principal amount, annual interest rate, and loan period (in years).
+Welcome to the Java Financial Calculators repository! This collection of Java programs is designed to assist you with various financial calculations. Explore the different branches to discover specialized calculators.
+
+### Branches
+
+1. **Rental Yield Calculator:** Branch - `rental-yield-calculator`
+   - Calculate the potential return on investment for a property.
+
+2. **Mortgage Calculator (OOP):** Branch - `mortgage-calculator`
+   - Calculate mortgage payments using an object-oriented approach.
+
+3. **Mortgage Calculator (Procedural):** Branch - `mortgage-calculator-procedural`
+   - Calculate mortgage payments using a procedural programming approach.
+
+Feel free to switch between branches to explore different implementations and functionalities!
 
 ## How to Use
 
-1. Clone the repository to your local machine.
+### Clone the Repository
 
 ```bash
-git clone https://github.com/abdulbasit-dev/java-mortgage-calculator.git
+git clone https://github.com/abdulbasit-dev/java-financial-calculators.git
 ```
 
-2. Navigate to the project directory.
+### Explore Different Calculators
 
-```bash
-cd java-mortgage-calculator/src
-```
+1. **Rental Yield Calculator:**
+   ```bash
+   git checkout rental-yield-calculator
+   ```
 
-3. Compile and run the program.
+2. **Mortgage Calculator (OOP):**
+   ```bash
+   git checkout mortgage-calculator
+   ```
+
+3. **Mortgage Calculator (Procedural):**
+   ```bash
+   git checkout mortgage-calculator-procedural
+   ```
+
+### Run the Programs
+
+Navigate to the respective branch directory and run the Java programs using:
 
 ```bash
 javac Main.java
 java Main
 ```
 
-4. Follow the on-screen prompts to enter the required information:
+Follow the on-screen prompts to input the required information and get your calculations!
 
-   - Principal amount ($1k - $1M)
-   - Annual interest rate (1% - 30%)
-   - Loan period in years (1 - 30)
-
-5. The program will then calculate and display the monthly mortgage payment.
-
-## File Structure
-
-- `src/Main.java`: The main Java file containing the Mortgage Calculator program.
-- `README.md`: This file providing information about the project.
-
-## Contribution
+## Cool Java Finance Tools at Your Fingertips! 🚀
 
 Feel free to contribute to the project by submitting issues or creating pull requests. Your feedback and suggestions are always welcome!
 

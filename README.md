@@ -9,13 +9,13 @@ This Java program is a simple Mortgage Calculator that allows users to calculate
 1. Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/abdulbasit-dev/java-mortgage-calculator.git
+git clone -b mortgage-calculator https://github.com/abdulbasit-dev/java-financial-calculators.git
 ```
 
 2. Navigate to the project directory.
 
 ```bash
-cd java-mortgage-calculator/src
+cd java-financial-calculators/src
 ```
 
 3. Compile and run the program.
@@ -33,10 +33,26 @@ java Main
 
 5. The program will then calculate and display the monthly mortgage payment.
 
-## File Structure
+```plaintext
+.
+├── .gitignore
+├── README.md
+├── src
+│   ├── Console.java
+│   ├── Main.java
+│   ├── MortgageCalculator.java
+│   └── MortgageReport.java
+└── Types.iml
+```
 
-- `src/Main.java`: The main Java file containing the Mortgage Calculator program.
+- `.gitignore`: File specifying intentionally untracked files that Git should ignore.
 - `README.md`: This file providing information about the project.
+- `src/`
+  - `Console.java`: Utility class handling user input and validation.
+  - `Main.java`: Main program file where the Mortgage Calculator is initiated.
+  - `MortgageCalculator.java`: Class responsible for calculating the mortgage based on user input.
+  - `MortgageReport.java`: Class generating and displaying the mortgage and payment schedule.
+
 
 ## Contribution
 

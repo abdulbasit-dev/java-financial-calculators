@@ -1,15 +1,15 @@
-# Mortgage Calculator
+# Rental Yield Calculator
 
 ## Overview
 
-This Java program is a simple Mortgage Calculator that allows users to calculate their mortgage payments based on the principal amount, annual interest rate, and loan period (in years).
+This Java program is a Rental Yield Calculator designed to help users assess the potential return on investment for a property. Users can calculate the rental yield based on the property's price and the monthly rent.
 
 ## How to Use
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine and switch to the Rental Yield Calculator branch.
 
 ```bash
-git clone https://github.com/abdulbasit-dev/java-mortgage-calculator.git
+git clone -b rental-yield-calculator https://github.com/abdulbasit-dev/java-mortgage-calculator.git
 ```
 
 2. Navigate to the project directory.
@@ -27,16 +27,33 @@ java Main
 
 4. Follow the on-screen prompts to enter the required information:
 
-   - Principal amount ($1k - $1M)
-   - Annual interest rate (1% - 30%)
-   - Loan period in years (1 - 30)
+   - Property Price
+   - Monthly Rent
 
-5. The program will then calculate and display the monthly mortgage payment.
+5. The program will then calculate and display the rental yield percentage.
 
 ## File Structure
 
-- `src/Main.java`: The main Java file containing the Mortgage Calculator program.
+```plaintext
+.
+├── .gitignore
+├── README.md
+├── src
+│   ├── Console.java
+│   ├── Main.java
+│   ├── RentalYieldCalculator.java
+│   └── RentalYieldReport.java
+└── Types.iml
+```
+
+- `.gitignore`: File specifying intentionally untracked files that Git should ignore.
 - `README.md`: This file providing information about the project.
+- `src/`
+  - `Console.java`: Utility class handling user input and validation.
+  - `Main.java`: Main program file where the Rental Yield Calculator is initiated.
+  - `RentalYieldCalculator.java`: Class responsible for calculating the rental yield based on user input.
+  - `RentalYieldReport.java`: Class generating and displaying the rental yield report.
+
 
 ## Contribution
 

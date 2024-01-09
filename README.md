@@ -9,7 +9,7 @@ This Java program is a Rental Yield Calculator designed to help users assess the
 1. Clone the repository to your local machine and switch to the Rental Yield Calculator branch.
 
 ```bash
-git clone -b rental-yield-calculator https://github.com/abdulbasit-dev/java-mortgage-calculator.git
+git clone -b rental-yield-calculator https://github.com/abdulbasit-dev/java-financial-calculators.git
 ```
 
 2. Navigate to the project directory.

@@ -4,18 +4,21 @@
 
 This Java program is a simple Mortgage Calculator that allows users to calculate their mortgage payments based on the principal amount, annual interest rate, and loan period (in years).
 
+<br>
+**Note:** This Java program is implemented using procedural programming. If you're interested in the object-oriented programming (OOP) version, check out the `mortgage-calculator` branch.
+
 ## How to Use
 
 1. Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/abdulbasit-dev/java-mortgage-calculator.git
+git clone -b mortgage-calculator-procedural  https://github.com/abdulbasit-dev/java-financial-calculators.git
 ```
 
 2. Navigate to the project directory.
 
 ```bash
-cd java-mortgage-calculator/src
+cd java-financial-calculators/src
 ```
 
 3. Compile and run the program.
@@ -37,6 +40,21 @@ java Main
 
 - `src/Main.java`: The main Java file containing the Mortgage Calculator program.
 - `README.md`: This file providing information about the project.
+
+```plaintext
+.
+├── src
+│   ├── Main.java
+├── .gitignore
+├── README.md
+└── Types.iml
+```
+
+- `src/`
+  - `Main.java`: The main Java file containing the Mortgage Calculator program.
+- `.gitignore`: File specifying intentionally untracked files that Git should ignore.
+- `README.md`: This file providing information about the project.
+
 
 ## Contribution
 

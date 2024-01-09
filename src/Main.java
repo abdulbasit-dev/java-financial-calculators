@@ -11,6 +11,4 @@ public class Main {
         var rentalYieldReport = new RentalYieldReport(rentalYieldCalculator);
         rentalYieldReport.displayRentalYield();
     }
-
-
 }

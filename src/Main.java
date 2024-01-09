@@ -1,17 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("MORTGAGE CALCULATOR");
+        System.out.println("Welcome to the Rental Yield Calculator!");
         System.out.println("___________________");
         System.out.println("Please enter the following information: ");
 
-        int principal = (int) Console.readNumber("Principal ($1k - $1M): ", 1000, 1_000_000);
-        float annualInterestRate = (float) Console.readNumber("Annual Interest Rate: ", 1, 30);
-        byte period = (byte) Console.readNumber("Period (Years): ", 1, 30);
+        double propertyPrice = Console.readNumber("Enter Property price: ");
+        double monthlyRent = Console.readNumber("Enter Monthly rent: ");
 
-        var calculator = new MortgageCalculator(principal, annualInterestRate, period);
-        var mortgageReport = new MortgageReport(calculator);
-        mortgageReport.displayMortgage();
-        mortgageReport.displayPaymentSchedule();
+        var rentalYieldCalculator = new RentalYieldCalculator(propertyPrice, monthlyRent);
+        var rentalYieldReport = new RentalYieldReport(rentalYieldCalculator);
+        rentalYieldReport.displayRentalYield();
     }
 
 
